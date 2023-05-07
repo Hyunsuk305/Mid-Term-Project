@@ -1,6 +1,11 @@
-h1 {
+body {
+    overflow: hidden;
+    font-family: 'Roboto Slab', serif;
+}
+
+h3 {
     font-family: 'Pretendard-Thin';
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     font-style: italic;
     font-weight: lighter;
@@ -61,4 +66,84 @@ h1 {
 
 .profile img {
     border-radius: 30%;
+}
+
+/* page 2 */
+
+.intext {
+    float: right;
+    padding-bottom: 200px;
+    margin: 35px;
+    text-align: center;
+}
+
+.me {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    padding-top: 180px;
+    padding-left: 100px;
+}
+
+
+/* page 3 */
+
+h1 {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.lists{
+    text-align: center;
+    font-family: 'Pretendard-Thin';
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Pretendard-Thin';
+    font-size: 18px;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+.list_img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 7vh 5vh;
+    margin: auto;
+}
+
+.favorites {
+    display:inline-flex;
+    margin-top: 60px;
+}
+
+/* page 4 */
+
+.four {
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.contact_img {
+    width: 50%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 300px;
+    padding-left: 360px;
+}
+
+.ct {
+    margin-top: 80px;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    font-style: italic;
+    margin: 35px;
+    
 }
